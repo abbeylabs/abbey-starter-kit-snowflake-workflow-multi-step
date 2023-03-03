@@ -1,4 +1,4 @@
-# Workflow multi step example
+# Abbey Starter Kit Workflow Multi-Step Example
 
 This example shows how to create a multistep Grant Kit workflow.
 The example features requesting access to a [Snowflake Role Grant](https://registry.terraform.io/providers/Snowflake-Labs/snowflake/latest/docs/resources/role_grants) 
