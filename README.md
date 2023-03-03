@@ -1,7 +1,7 @@
 # Workflow multi step example
 
 This example shows how to create a multistep Grant Kit workflow.
-The example features requesting access to a [Snowflake Role Grant](https://docs.abbey.so/tutorials/grant-workflows/multi-step-grant-workflows) 
+The example features requesting access to a [Snowflake Role Grant](https://registry.terraform.io/providers/Snowflake-Labs/snowflake/latest/docs/resources/role_grants) 
 in two sequential steps, with the first step requiring all reviewers to approve access and 
 the second step requiring just one reviewer to approve access.
 
