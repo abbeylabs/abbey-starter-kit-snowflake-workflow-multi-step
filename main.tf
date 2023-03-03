@@ -98,7 +98,7 @@ resource "abbey_grant_kit" "role__pii_readonly" {
   output = {
     # Replace with your own path pointing to where you want your access changes to manifest.
     # Path is an RFC 3986 URI, such as `github://{organization}/{repo}/path/to/file.tf`.
-    location = "github://abbeylabs/abbey-starter-kits/snowflake/workflow-multi-step/access.tf"
+    location = "github://organization/repo/access.tf"
     append = <<-EOT
       resource "snowflake_role_grants" "pii_readonly__{{ $.data.system.abbey.primary_identity.username }}" {
         role_name = "${data.snowflake_role.pii_readonly_role.name}"
