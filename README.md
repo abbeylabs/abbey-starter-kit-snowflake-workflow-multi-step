@@ -7,7 +7,7 @@ the second step requiring just one reviewer to approve access.
 
 ## Prerequisites
 
-1. Abbey Labs Account - [Sign up for the waitlist](https://abbey.so).
+1. Abbey Labs Account - [Sign up for the waitlist](https://abbey.so/sign-up).
 2. Snowflake Account
 
 ## Usage
